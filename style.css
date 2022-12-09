@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  /*it is for the 4 sides :
+   Margins are used to create space around elements,
+   outside of any defined borders.*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #F9F9F9;
+}
+
+h1 {
+  font-size: 4.625rem;
+  margin-top: 50px auto 0 auto;
+  /* just for the top of h1*/
+  font-family: 'Pacifico', cursive;
+  color: #063970;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 0.99rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #063970;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #76b5c5;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #063970 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.MyImg {
+  height: 150px;
+  width: 150px;
+}
+
+.code-img {
+  width: 10%;
+  float: left;
+  margin: auto 50px auto 350px;
+}
+
+.binary-code-img {
+  width: 10%;
+  float: right;
+  margin: auto 500px auto 20px;
+}
+
+.mountain {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.hot-air-balloon {
+  height: 150px;
+  width: 150px;
+  left: -10px;
+  position: absolute;
+  top: 50px;
+}
+
+.hot-air-balloon1 {
+  height: 150px;
+  width: 150px;
+  right: -10px;
+  position: absolute;
+}
+
+div {
+  background-color: #F9F9F9;
+}
+
+.top-container {
+  background-color: #F9F9F9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #76b5c5;
+  padding: 20px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 20px auto 100px auto;
+  text-align: left;
+}
+
+.finish {
+  width: 40%;
+  margin: 40px auto 10px;
+}
+
+.btn {
+  box-shadow: inset -5px -17px 24px -5px #76b5c5;
+  background: linear-gradient(to bottom, #76b5c5 5%, #76b5c5 100%);
+  background-color: #76b5c5;
+  border-radius: 29px;
+  border: 2px solid#76b5c5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 11px 17px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 0 50px 0;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #acd2dc 5%, #acd2dc 100%);
+  background-color: #acd2dc;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+a {
+  color: #acd2dc;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.copy-right {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
